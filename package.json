@@ -1,0 +1,19 @@
+{
+  "name": "monking-template",
+  "version": "1.0.0",
+  "description": "monking template files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenhebing/monking-template.git"
+  },
+  "keywords": [
+    "template",
+    "monking"
+  ],
+  "author": "chenhebing",
+  "license": "MIT"
+}
