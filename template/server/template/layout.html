@@ -10,7 +10,7 @@
         {{{outlet}}}
     </div>
     <script>
-        window.__INITIAL_STATE__ = {{{ $initState}}};
+        window.__INITIAL_STATE__ = {{{ $initState }}};
         window.onload = function () {
             var app = document.querySelector('#app');
             ReactDOM.hydrate(React.createElement(APP.default, window.__INITIAL_STATE__), app);

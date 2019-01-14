@@ -1,7 +1,8 @@
 export default ({createSchema, createModel}) => {
     const schema = createSchema({
-
+        name: String,
+        age: Number
     });
 
-    return createModel('xxx', schema);
+    return createModel('user', schema);
 };
